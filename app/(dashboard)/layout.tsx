@@ -13,7 +13,7 @@ interface Props {
   children: React.ReactNode;
 }
 
-export default function RootLayout({ children }: Props) {
+export default function DashboardLayout({ children }: Props) {
   return (
     <html lang="en">
       <body className={font.className}>{children}</body>

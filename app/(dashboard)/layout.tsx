@@ -1,8 +1,7 @@
 import type { Metadata } from 'next';
-import { Open_Sans } from 'next/font/google';
-import './globals.css';
 
-const font = Open_Sans({ subsets: ['latin'] });
+import '@/styles/globals.css';
+import GlassPane from '@/components/GlassPane';
 
 export const metadata: Metadata = {
   title: 'Next App',
@@ -16,7 +15,11 @@ interface Props {
 export default function DashboardLayout({ children }: Props) {
   return (
     <html lang="en">
-      <body className={font.className}>{children}</body>
+      <body className="h-screen w-screen rainbow-mesh p-6">
+        <GlassPane className="w-full h-full flex items-center justify-center">
+          {children}
+        </GlassPane>
+      </body>
     </html>
   );
 }

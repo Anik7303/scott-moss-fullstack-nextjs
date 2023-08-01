@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 
-import '@/styles/globals.css';
 import GlassPane from '@/components/GlassPane';
+import '../global.css';
 
 export const metadata: Metadata = {
   title: 'Next App',

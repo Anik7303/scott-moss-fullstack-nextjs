@@ -1,7 +1,6 @@
 import GlassPane from '@/components/GlassPane';
-import '@/styles/globals.css';
-import clsx from 'clsx';
 import type { Metadata } from 'next';
+import '../globals.css';
 
 export const metadata: Metadata = {
   title: 'Next App',

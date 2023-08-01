@@ -15,11 +15,7 @@
 @layer components {
   .rainbow-mesh {
     background-color: hsla(0, 100%, 50%, 1);
-    background-image: radial-gradient(
-        at 40% 20%,
-        hsla(28, 100%, 74%, 1) 0px,
-        transparent 50%
-      ),
+    background-image: radial-gradient(at 40% 20%, hsla(28, 100%, 74%, 1) 0px, transparent 50%),
       radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
       radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),
       radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),
@@ -30,11 +26,7 @@
 
   .candy-mesh {
     background-color: hsl(310, 100%, 80%);
-    background-image: radial-gradient(
-        at 99% 6%,
-        hsla(195, 69%, 67%, 1) 0px,
-        transparent 50%
-      ),
+    background-image: radial-gradient(at 99% 6%, hsla(195, 69%, 67%, 1) 0px, transparent 50%),
       radial-gradient(at 55% 88%, hsla(189, 74%, 63%, 1) 0px, transparent 50%),
       radial-gradient(at 53% 27%, hsla(271, 78, 63, 1) 0px, transparent 50%),
       radial-gradient(at 89% 89%, hsla(317, 89%, 70%, 1) 0px, transparent 50%),
